@@ -1,2 +1,2 @@
-{{name}}さん、こんにちは。
+{{name}} さん、こんにちは。
 Accord Project へようこそ！
