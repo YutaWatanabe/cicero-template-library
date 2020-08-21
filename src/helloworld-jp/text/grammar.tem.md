@@ -1,2 +1,2 @@
-Name of the person to greet: {{name}}.
-Thank you!
+{{name}}さん、こんにちは。
+Accord Project へようこそ！

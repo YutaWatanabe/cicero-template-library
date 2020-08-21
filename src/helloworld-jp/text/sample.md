@@ -1,2 +1,2 @@
-Name of the person to greet: "Fred Blogs".
-Thank you!
+"渡辺"さん、こんにちは。
+Accord Project へようこそ！
