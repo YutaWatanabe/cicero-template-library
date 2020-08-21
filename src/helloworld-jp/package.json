@@ -1,8 +1,8 @@
 {
     "name": "helloworld",
-    "displayName": "Hello World",
+    "displayName": "Hello World JP",
     "version": "0.13.0",
-    "description": "This is the Hello World of Accord Project Templates. Executing the clause will simply echo back the text that occurs after the string `Hello` prepended to text that is passed in the request.",
+    "description": "Accord Project テンプレートの Hello World。条項を実行すると、 挨拶文の後に入力された値をそのまま出力します。",
     "author": "Accord Project",
     "license": "Apache-2.0",
     "accordproject": {
@@ -15,5 +15,13 @@
     "scripts": {
         "test": "cucumber-js test -r .cucumber.js"
     },
-    "keywords": ["hello", "world", "greet"]
+    "keywords": [
+        "hello",
+        "world",
+        "greet",
+        "japanese"
+    ],
+    "dependencies": {
+        "@accordproject/cicero-test": "^0.21.3"
+    }
 }
