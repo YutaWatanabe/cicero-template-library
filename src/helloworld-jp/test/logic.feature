@@ -1,36 +1,36 @@
 Feature: HelloWorld
-  This describe the expected behavior for the Accord Project's "Hello World!" contract for Betty Buyer
+  This describe the expected behavior for the Accord Project's "Hello World!" contract for 森下 将宏
 
   Background:
     Given that the contract says
 """
-Name of the person to greet: "Betty Buyer".
-Thank you!
+"森下 将宏" さん、こんにちは。
+Accord Project へようこそ！
 """
 
-  Scenario: The contract should say Hello to Betty Buyer, from the Accord Project, for the default request
+  Scenario: The contract should say Hello to 森下 将宏, from the Accord Project, for the default request
     When it receives the default request
     Then it should respond with
 """
 {
     "$class": "org.accordproject.helloworld.MyResponse",
-    "output": "Hello Betty Buyer Accord Project"
+    "output": "こんにちは、Accord Project 森下 将宏さん"
 }
 """
 
-  Scenario: The contract should say Hello to Betty Buyer, from the ACME Corporation
+  Scenario: The contract should say Hello to 森下 将宏, from the 東京中央銀行
     When it receives the request
 """
 {
     "$class": "org.accordproject.helloworld.MyRequest",
-    "input": "ACME Corporation"
+    "input": "東京中央銀行"
 }
 """
     Then it should respond with
 """
 {
     "$class": "org.accordproject.helloworld.MyResponse",
-    "output": "Hello Betty Buyer ACME Corporation"
+    "output": "こんにちは、東京中央銀行 森下 将宏さん"
 }
 """
 
